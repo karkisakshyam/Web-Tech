@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="stulogin.css" />
+  </head>
+  <body>
+    <h2 class="heading">Student Registration Form</h2>
+
+    <div class="container">
+      <form>
+        <h3>Personal Information</h3>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required />
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter email" required />
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="98XXXXXXXX" required />
+
+        <label>Date of Birth</label>
+        <input type="date" required />
+
+        <label>Website</label>
+        <input type="url" placeholder="https://example.com" />
+
+        <label>Search</label>
+        <input type="search" placeholder="Search something" />
+
+        <label>Preferred Time</label>
+        <input type="time" />
+
+        <label>Birth Month</label>
+        <input type="month" />
+
+        <label>Birth Week</label>
+        <input type="week" />
+
+        <label>Registration Date/Time</label>
+        <input type="datetime-local" />
+
+        <h3>Account Information</h3>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter password" required />
+
+        <h3>Gender</h3>
+
+        <label><input type="radio" name="gender" /> Male</label>
+        <label><input type="radio" name="gender" /> Female</label>
+        <label><input type="radio" name="gender" /> Other</label>
+
+        <h3>Courses & Department</h3>
+
+        <label>Choose Courses</label>
+        <label><input type="checkbox" /> Math</label>
+        <label><input type="checkbox" /> Science</label>
+        <label><input type="checkbox" /> English</label>
+
+        <label>Department</label>
+        <select>
+          <option value="">Select</option>
+          <option>Science</option>
+          <option>Arts</option>
+          <option>Commerce</option>
+        </select>
+
+        <label>Subjects (Multiple)</label>
+        <select multiple>
+          <option>Math</option>
+          <option>Science</option>
+          <option>English</option>
+          <option>Nepali</option>
+          <option>Social</option>
+        </select>
+
+        <label>City</label>
+        <input list="citylist" placeholder="Type or choose city" />
+        <datalist id="citylist">
+          <option value="Kathmandu"></option>
+          <option value="Pokhara"></option>
+          <option value="Biratnagar"></option>
+          <option value="Lalitpur"></option>
+          <option value="Bhaktapur"></option>
+        </datalist>
+
+        <h3>Other Information</h3>
+
+        <label>Marks (0-100)</label>
+        <input type="number" min="0" max="100" />
+
+        <label>Age</label>
+        <input type="number" min="5" max="100" />
+
+        <label>Favorite Color</label>
+        <input type="color" />
+
+        <label>Address</label>
+        <textarea rows="3"></textarea>
+
+        <label>Upload Photo</label>
+        <input type="file" />
+
+        <label>Progress</label>
+        <progress value="30" max="100"></progress>
+
+        <label>Performance</label>
+        <meter value="0.4"></meter>
+
+        <label><input type="checkbox" required /> I agree to the terms</label>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+body {
+  background: #f3f3f3;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  background: white;
+  padding: 15px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+form h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+input,
+select,
+textarea,
+progress,
+meter {
+  width: 100%;
+  padding: 7px;
+  margin-top: 5px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #444;
+}
