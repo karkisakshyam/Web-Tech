@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 15px 40px;
+  background: #1d1d1d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
+}
+
+/* Center Boxes Section */
+.boxes-container {
+  height: calc(100vh - 70px); /* full height minus navbar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Boxes */
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Random Colors */
+.box1 {
+  background: #ff6f61;
+}
+.box2 {
+  background: #6a5acd;
+}
+.box3 {
+  background: #20b2aa;
+}
