@@ -22,7 +22,6 @@ if($num1 > $num2){
 }else{
     echo "num2 is bigger";
 }
-?>
-
+?> 
 
 
