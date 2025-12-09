@@ -1,7 +1,7 @@
 <style>
 #box{
    height: 100px;
-    width: 100px;
+    width: 150px;
     background-color: red;
     margin: 2px;
     display: inline-flex;      
@@ -12,10 +12,23 @@
     font-weight: bold;
 
 }
+#box:hover{
+    background-color: blue;
+    transition-delay: 0.1s;
+
+}
+
+
+#h1{
+
+}
+
 </style>
 
 
 <?php
+echo "<h1=>Calender of This Month</h1>";
+echo "<br>";
 $num = 1;
 for ($row = 1; $row <= 5; $row++ ){
     for($col = 1; $col <= 7; $col++ ){
